@@ -9,12 +9,12 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-    public static final Item  VOID_SWORD = registerItem("void_sword",
-            new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item VOID_SWORD = registerItem("void_sword",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
 
     private static Item registerItem(String name, Item item){
-        return Registry.register(Registry.ITEM, new Identifier(VoidMod.MOD_ID, name),item);
+        return Registry.register(Registry.ITEM, new Identifier(VoidMod.MOD_ID, name), item);
     }
 
     public static void registerModItems(){
