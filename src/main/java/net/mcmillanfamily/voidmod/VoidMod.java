@@ -12,7 +12,7 @@ public class VoidMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+    //test github
 
 		LOGGER.info("Hello Fabric world!");
 	}
