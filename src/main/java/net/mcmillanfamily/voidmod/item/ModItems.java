@@ -9,7 +9,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-    public static final Item  void_sword = registerItem("void_sword",
+    public static final Item  VOID_SWORD = registerItem("void_sword",
             new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
 
 
