@@ -12,10 +12,14 @@ public class ModItems {
     public static final Item VOID_SWORD = registerItem("void_sword",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
+    public static  final Item VOID_PICKAXE = registerItem("void_pickaxe",
+            new Item(new FabricItemSettings().group((ItemGroup.MISC))));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(VoidMod.MOD_ID, name), item);
     }
+
+
 
     public static void registerModItems(){
         VoidMod.LOGGER.debug("Registering Mod items for " + VoidMod.MOD_ID);
