@@ -14,7 +14,7 @@ public class ModItems {
     public static final Item VOID_SWORD = registerItem("void_sword",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
-    public static ToolItem VOID_PICKAXE = registerItem("void_pickaxe",
+    public static Item VOID_PICKAXE = registerItem("void_pickaxe",
             new PickaxeItem(ModToolMaterial.INSTANCE,1, -2.8F, new FabricItemSettings().group(ItemGroup.TOOLS)));
 
     private static Item registerItem(String name, Item item){
